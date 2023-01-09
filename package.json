@@ -1,0 +1,27 @@
+{
+	"name": "goit-js-hw-08",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/js/gallery-items.js",
+	"scripts": {
+		"start": "parcel src/index.html",
+		"build": "parcel build src/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/daryark/goit-js-hw-08.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/daryark/goit-js-hw-08/issues"
+	},
+	"homepage": "https://github.com/daryark/goit-js-hw-08#readme",
+	"devDependencies": {
+		"parcel": "^2.8.2"
+	},
+	"dependencies": {
+		"simplelightbox": "^2.11.0"
+	}
+}
