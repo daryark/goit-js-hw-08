@@ -5,7 +5,7 @@ const userDataObj = {};
 
 function getDataFromLocalStorage() {
   try {
-    localStorageData = JSON.parse(localStorage.getItem('userDataObj'));
+    const localStorageData = JSON.parse(localStorage.getItem('userDataObj'));
 
     if (localStorageData === null) {
       return;
