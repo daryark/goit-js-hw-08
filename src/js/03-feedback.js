@@ -28,7 +28,6 @@ function onChange() {
   };
 
   localStorage.setItem(LS_KEY, JSON.stringify(inputData));
-  userDataObj = JSON.parse(localStorage.getItem(LS_KEY));
 }
 
 function clearForm(e) {
