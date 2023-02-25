@@ -1,0 +1,2 @@
+document.querySelector("body");const e=document.querySelector("#slider");e.addEventListener("click",(function(){const t=e.checked?"theme-dark":"theme-light";document.body.className=t,localStorage.setItem("currentTheme",t)})),localStorage.getItem("currentTheme")&&"theme-dark"===localStorage.getItem("currentTheme")&&(document.body.className="theme-dark",e.checked=!e.checked);
+//# sourceMappingURL=04-theme-change.9f6f1dc6.js.map

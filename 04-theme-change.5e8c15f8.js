@@ -1,0 +1,2 @@
+!function(){document.querySelector("body");var e=document.querySelector("#slider");e.addEventListener("click",(function(){var t=e.checked?"theme-dark":"theme-light";document.body.className=t,localStorage.setItem("currentTheme",t)})),localStorage.getItem("currentTheme")&&"theme-dark"===localStorage.getItem("currentTheme")&&(document.body.className="theme-dark",e.checked=!e.checked)}();
+//# sourceMappingURL=04-theme-change.5e8c15f8.js.map
